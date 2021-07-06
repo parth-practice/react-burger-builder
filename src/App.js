@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Expenses from './components/Expenses';
+import NewExpense from './components/NewExpense';
 
 import './App.css';
 
@@ -26,7 +27,7 @@ function App() {
 
   return (
       <div className="App">
-          <h1 className="App-title">Welcome to React</h1>
+          <NewExpense />
           <Expenses expenses={expenses} />
       </div>
     );
